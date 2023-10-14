@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test Cobyzero</string>
+    <string name="facebook_app_id">842684753980401</string>
+     <string name="facebook_client_token">128011b3268c862599828282e3d37f76</string>
+</resources>

@@ -45,8 +45,8 @@ android {
         applicationId "com.example.test_cobyzero"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -64,4 +64,8 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+    implementation 'com.facebook.android:facebook-marketing:[4,5)' 
+
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)' 
+}
